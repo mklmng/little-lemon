@@ -1,0 +1,21 @@
+header{
+  background-color: var(--highlight-light-grey);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) repeat(12, minmax(auto, 90px)) minmax(0, 1fr);
+  grid-template-rows: minmax(auto, 123px);
+  grid-gap: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.header-logo {
+  display: grid;
+  align-content: center;
+  justify-content: start;
+  grid-column: 2 / 6;
+}
+
+.header-logo img{
+  width: 148px;
+  height: auto;
+}

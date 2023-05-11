@@ -1,0 +1,10 @@
+main {
+  position: relative;
+  z-index: 1;
+}
+
+main article {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: minmax(0px, 1fr) repeat(12, minmax(auto, 90px)) minmax(0px, 1fr);
+}

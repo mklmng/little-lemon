@@ -1,40 +1,64 @@
+import './Footer.css';
+import restaturant from '../assets/restaurant.jpg'
+
 export default function Footer() {
   return (
     <footer>
-      <article>
-        <div>
-          <img src="https://place-hold.it/162x279/" alt=""/>
+      <div className="footer-image">
+        <img src={restaturant} alt="restaurant" />
+      </div>
+      <div className="footer-info">
+        <div className="doormat-nav">
+          <h3>Doormat navigation</h3>
+          <nav>
+            <ul>
+              <li>
+                <a href="/" target="_self">Home</a>
+              </li>
+              <li>
+                <a href="/about" target="_self">About</a>
+              </li>
+              <li>
+                <a href="/menu" target="_self">Menu</a>
+              </li>
+              <li>
+                <a href="/reservations" target="_self">Reservations</a>
+              </li>
+              <li>
+                <a href="/order-online" target="_self">Order Online</a>
+              </li>
+              <li>
+                <a href="/login" target="_self">Login</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div>
-          <strong>Doormat Navigation</strong>
+        <div className="contact">
+          <h3>Contact</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/menu">Menu</a></li>
-            <li><a href="/reservations">Reservations</a></li>
-            <li><a href="/order-online">Order Online</a></li>
-            <li><a href="/login">Login</a></li>
+            <li>
+              <address>Address</address>
+            </li>
+            <li>
+              Phone number
+            </li>
+            <li>
+              email
+            </li>
           </ul>
         </div>
-        <div>
-          <dl>
-            <dt>Contact</dt>
-            <dd>Address</dd>
-            <dd>Phone number</dd>
-            <dd>Email</dd>
-          </dl>
+        <div className="social-media">
+          <h3>Social media links</h3>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            </li>
+          </ul>
         </div>
-        <div>
-          <dl>
-            <dt>Social Media Links</dt>
-            <dd>
-              <a href="/">Link 1</a>
-              <a href="/">Link 2</a>
-              <a href="/">Link 3</a>
-            </dd>
-          </dl>
-        </div>
-      </article>
+      </div>
     </footer>
   )
 }

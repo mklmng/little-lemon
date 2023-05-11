@@ -1,0 +1,123 @@
+.specials-header{
+  background-color: white;
+  display: grid;
+  align-items: center;
+  grid-column: 2 / 13;
+  grid-row: 2 / 2;
+}
+
+.specials h1 {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 0.85;
+  padding-bottom: 1rem;
+}
+
+.specials-cards{
+  display: grid;
+  grid-column: 2 / 14;
+  grid-row: 3 / 3;
+  align-items: center;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 265px;
+  background-color: var(--highlight-light-grey);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.card > img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 23px 28px 28px 28px;
+  height: 100%;
+}
+
+.card-title {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--highlight-dark-grey);
+  display: inline;
+  text-align: left;
+}
+
+.card-price {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-pink);
+  display: inline;
+  text-align: right;
+}
+
+.card p {
+  font-family: var(--secondary-font);
+  color: var(--primary-green);
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 65ch;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.cta-secondary{
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--highlight-dark-grey);
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.cta-secondary:hover{
+  color: var(--secondary-pink);
+}
+
+@media screen and (min-width: 768px) {
+  .bg-specials {
+    padding-top: 3rem;
+  }
+
+  .specials-header, .specials-cards{
+    grid-column: 4 / 12;
+    padding-bottom: 1.5rem;
+  }
+
+  .specials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .specials h1{
+    padding-bottom: 0;
+  }
+
+  .card-container{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}

@@ -1,11 +1,14 @@
-import logo from '../assets/logo.svg';
-import Nav from './Nav';
+import "./Header.css";
+import Nav from "./Nav";
+import logo from "../assets/logo.svg"
 
-export default function Header() {
+export default function Gallery() {
   return (
     <header>
-      <img src={logo} alt="Little Lemon logo"/>
+      <div className="header-logo">
+        <img src={logo} alt="Little Lemon logo" />
+      </div>
       <Nav />
     </header>
-  )
+  );
 }
