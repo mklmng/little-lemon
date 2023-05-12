@@ -12,32 +12,22 @@
 }
 
 .hero-header h1 {
-  font-family: var(--main-font);
   color: var(--primary-yellow);
-  font-size: 64px;
-  font-weight: 500;
-  line-height: 0.85;
 }
 
 .hero-header h2 {
-  font-family: var(--main-font);
   color: var(--highlight-light-grey);
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 0.8;
   padding-bottom: 1rem;
 }
 
-.hero-header p {
-  font-family: var(--secondary-font);
+.hero-header .homepage-text {
   color: var(--highlight-light-grey);
   font-size: 18px;
-  font-weight: 500;
   max-width: 200px;
   padding-bottom: 0.5rem;
 }
 
-.cta{
+.cta {
   background-color: var(--primary-yellow);
   color: var(--highlight-dark-grey);
   border-radius: 16px;
@@ -80,7 +70,7 @@
     grid-column: 4 / 8;
   }
 
-  .hero-header p {
+  .hero-header .homepage-text {
     max-width: 300px;
   }
 

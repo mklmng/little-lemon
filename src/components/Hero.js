@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-header">
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
-        <p>
+        <p className='homepage-text'>
           We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
         </p>
         <a href="/reservations" className="cta">

@@ -1,0 +1,125 @@
+.bg-testimonials{
+  background-color: var(--primary-green);
+  grid-template-rows: repeat(14, auto);
+}
+.testimonials-header {
+  display: grid;
+  grid-column: 3 / 13;
+  grid-row: 5;
+  align-content: center;
+  justify-content: center;
+}
+
+.testimonials-header h1{
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 0.85;
+  color: var(--primary-yellow);
+}
+
+.testimonials-boxes{
+  grid-column: 4 / 12;
+  grid-row: 7;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  background-color: var(--highlight-light-grey);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+
+.box span{
+  display: flex;
+  flex-basis: 40%;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: var(--highlight-dark-grey);
+}
+
+.box span:first-child{
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: start;
+  padding-bottom: 1rem;
+}
+
+.box p{
+  padding-top: 1.25rem;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: var(--highlight-dark-grey);
+}
+
+@media screen and (min-width: 768px) {
+  .bg-testimonials{
+    background-color: var(--primary-green);
+    grid-template-rows: repeat(14, auto);
+  }
+
+  .testimonials-header {
+    display: grid;
+    grid-column: 3 / 13;
+    grid-row: 5;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .testimonials-header h3{
+    line-height: 0.85;
+    color: var(--primary-yellow);
+  }
+
+  .testimonials-boxes{
+    grid-column: 4 / 12;
+    grid-row: 7;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .box {
+    background-color: var(--highlight-light-grey);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    padding: 24px;
+  }
+
+  .box span{
+    display: flex;
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    font-weight: normal;
+    color: var(--highlight-dark-grey);
+  }
+
+  .box span:first-child{
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 1rem;
+  }
+
+  .box p{
+    padding-top: 1.25rem;
+    color: var(--highlight-dark-grey);
+  }
+}

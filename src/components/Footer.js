@@ -9,7 +9,7 @@ export default function Footer() {
       </div>
       <div className="footer-info">
         <div className="doormat-nav">
-          <h3>Doormat navigation</h3>
+          <h5>Doormat navigation</h5>
           <nav>
             <ul>
               <li>
@@ -34,7 +34,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="contact">
-          <h3>Contact</h3>
+          <h5>Contact</h5>
           <ul>
             <li>
               <address>Address</address>
@@ -48,7 +48,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="social-media">
-          <h3>Social media links</h3>
+          <h5>Social media links</h5>
           <ul>
             <li>
               <a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>

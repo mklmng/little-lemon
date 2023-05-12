@@ -10,7 +10,7 @@ export default function Nav() {
   }
 
   return (
-    <nav>
+    <nav className="main-nav">
       <ul>
         <li>
           <a href="/" target="_self">Home</a>
