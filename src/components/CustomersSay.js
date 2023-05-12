@@ -1,7 +1,7 @@
-import './Testimonials.css';
+import './CustomersSay.css';
 import placeholder from '../assets/placeholder.jpg'
 
-export default function Testimonials () {
+export default function CustomersSay () {
   return (
     <article className="bg-testimonials">
       <div className="testimonials-header">

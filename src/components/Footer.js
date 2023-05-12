@@ -1,11 +1,12 @@
 import './Footer.css';
-import restaturant from '../assets/restaurant.jpg'
+import { Link } from 'react-router-dom';
+import restaurant from '../assets/restaurant.jpg'
 
 export default function Footer() {
   return (
     <footer>
       <div className="footer-image">
-        <img src={restaturant} alt="restaurant" />
+        <img src={restaurant} alt="restaurant" />
       </div>
       <div className="footer-info">
         <div className="doormat-nav">
@@ -13,22 +14,19 @@ export default function Footer() {
           <nav>
             <ul>
               <li>
-                <a href="/" target="_self">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/about" target="_self">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="/menu" target="_self">Menu</a>
+                <Link to="/menu">Menu</Link>
               </li>
               <li>
-                <a href="/reservations" target="_self">Reservations</a>
+                <Link to="/booking">Reservations</Link>
               </li>
               <li>
-                <a href="/order-online" target="_self">Order Online</a>
-              </li>
-              <li>
-                <a href="/login" target="_self">Login</a>
+                <Link to="/testimonials">Testimonials</Link>
               </li>
             </ul>
           </nav>

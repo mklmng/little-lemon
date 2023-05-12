@@ -1,8 +1,8 @@
-import './About.css';
+import './Chicago.css';
 import marioandadriana from '../assets/mario-and-adrian-a.jpg';
 import marioandadrianb from '../assets/mario-and-adrian-b.jpg';
 
-export default function About() {
+export default function Chicago() {
   return (
     <article className="bg-about">
       <div className="about">

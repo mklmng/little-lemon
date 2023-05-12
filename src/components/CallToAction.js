@@ -1,7 +1,7 @@
-import './Hero.css';
+import './CallToAction.css';
 import restaurantfood from '../assets/restauranfood.jpg';
 
-export default function Hero() {
+export default function CallToAction() {
   return (
     <article className="bg-hero">
       <div className="hero-header">

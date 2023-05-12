@@ -1,9 +1,9 @@
-import './Highlights.css';
+import './Specials.css';
 import greeksalad from '../assets/greek_salad.jpg';
 import bruschetta from '../assets/bruschetta.jpg';
 import lemondessert from '../assets/lemon_dessert.jpg'
 
-export default function Highlights() {
+export default function Specials() {
   return (
     <article className="bg-specials">
       <div className="specials-header">
