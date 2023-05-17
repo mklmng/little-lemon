@@ -14,30 +14,27 @@ export default function Nav() {
   return (
     <nav className="main-nav">
       <ul>
-      <ul>
         <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/menu">Menu</Link>
-          </li>
-          <li>
-            <Link to="/booking">Reservations</Link>
-          </li>
-          <li>
-            <Link to="/testimonials">Testimonials</Link>
-          </li>
-        </ul>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/menu">Menu</Link>
+        </li>
+        <li>
+          <Link to="/booking">Reservations</Link>
+        </li>
+        <li>
+          <Link to="/testimonials">Testimonials</Link>
+        </li>
       </ul>
       <div id="mobile-nav">
         <img id="burger" src={hamburger} alt="hamburger menu" className="hamburger-menu" onClick={switchDeviceView} />
       </div>
       <div id="mobile-menu" className={mobile ? 'animated' : null}>
         <ul>
-        <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -53,7 +50,6 @@ export default function Nav() {
           <li>
             <Link to="/testimonials">Testimonials</Link>
           </li>
-        </ul>
         </ul>
       </div>
     </nav>

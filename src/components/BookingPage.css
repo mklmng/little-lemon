@@ -1,0 +1,16 @@
+.bg-reservations {
+  background-color: var(--primary-green);
+  grid-template-rows: 20px auto auto;
+}
+
+.bg-reservations h3{
+  text-align: center;
+  grid-column: 1 / 14;
+  grid-row: 2 / 2;
+  padding-bottom: 0;
+  color: var(--secondary-cream);
+}
+
+input.cta{
+  cursor: pointer;
+}

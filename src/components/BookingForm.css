@@ -1,0 +1,33 @@
+.booking-form {
+  padding: 1.5rem;
+  grid-column: 3 / 12;
+  grid-row: 3 / 3;
+  border-radius: 16px;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.booking-form label {
+  display: block;
+  color: var(--primary-yellow);
+  padding-bottom: 0.5rem;
+}
+
+.booking-form input {
+  display: block;
+}
+
+label {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+input, select {
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0 auto 1rem;
+  width: 250px;
+}
