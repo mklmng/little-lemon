@@ -5,9 +5,7 @@
 
 .bg-reservations h3{
   text-align: center;
-  grid-column: 1 / 14;
-  grid-row: 2 / 2;
-  padding-bottom: 0;
+  padding-bottom: 2.5rem;
   color: var(--secondary-cream);
 }
 

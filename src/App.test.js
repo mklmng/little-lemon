@@ -5,11 +5,14 @@ import { initializeTimes } from "./components/Main"
 
 test('Renders the Date input label', () => {
   render(<BookingForm />);
-  const labelElement = screen.getByText("Date");
+  const labelElement = screen.getByText("Choose date");
   expect(labelElement).toBeInTheDocument();
 })
 
-test('initializeTimes renders the correct values', () => {
-  const initialData = { availableTimes: ["17:00","18:00","19:00","20:00","21:00","22:00"] };
-  expect(initializeTimes()).toEqual(initialData);
+test('initializeTimes renders a non empty array after fetching the data', () => {
+  const result = initializeTimes();
+  const resultLength = result.availableTimes.length;
+
+  expect(Array.isArray(result.availableTimes)).toBe(true);
+  expect(resultLength).toBeGreaterThan(0);
 })

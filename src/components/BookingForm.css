@@ -1,11 +1,15 @@
 .booking-form {
-  padding: 1.5rem;
-  grid-column: 3 / 12;
-  grid-row: 3 / 3;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-column: 1 / -1;
+  grid-row: 1 / span 3;
   border-radius: 16px;
   font-family: var(--secondary-font);
   font-size: 16px;
   line-height: 1.5;
+  padding: 1.5rem;
+
 }
 
 .booking-form label {

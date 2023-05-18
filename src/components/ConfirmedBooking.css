@@ -1,0 +1,32 @@
+.bg-confirmation-page{
+  background: var(--primary-green);
+  grid-template-rows: 20vh auto 20vh;
+}
+.confirmed-booking{
+  grid-column: 1 / -1;
+  grid-row: 2 / 2;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: var(--highlight-light-grey)
+}
+
+.confirmed-booking span{
+  display: block;
+  text-align: center;
+}
+
+.message{
+  padding-bottom: 2rem;
+}
+
+.confirmed-booking .cta a{
+  color: var(--highlight-dark-grey);
+  text-decoration: none;
+}
+
+.cta-big{
+  display: block;
+  padding: 1rem;
+  width: initial;
+}

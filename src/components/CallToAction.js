@@ -10,7 +10,7 @@ export default function CallToAction() {
         <p className='homepage-text'>
           We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
         </p>
-        <a href="/reservations" className="cta">
+        <a href="/booking" className="cta">
           Reserve a Table
         </a>
       </div>
