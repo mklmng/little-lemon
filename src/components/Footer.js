@@ -14,19 +14,19 @@ export default function Footer() {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" aria-label="Link to Homepage">Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" aria-label="Link to About">About</Link>
               </li>
               <li>
-                <Link to="/menu">Menu</Link>
+                <Link to="/menu" aria-label="Linkt to Menu">Menu</Link>
               </li>
               <li>
-                <Link to="/booking">Reservations</Link>
+                <Link to="/booking" aria-label="Link to Reservations">Reservations</Link>
               </li>
               <li>
-                <Link to="/testimonials">Testimonials</Link>
+                <Link to="/testimonials" aria-label="Link to Testimonials">Testimonials</Link>
               </li>
             </ul>
           </nav>

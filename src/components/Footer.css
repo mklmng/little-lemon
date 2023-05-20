@@ -3,7 +3,7 @@ footer {
   grid-gap: 20px;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: 45px auto 45px auto 45px;
-  background-color: var(--secondary-cream);
+  background-color: var(--primary-green);
 }
 
 .footer-image{
@@ -36,13 +36,13 @@ footer ul{
 
 footer ul li, footer ul li a {
   font-family: var(--secondary-font);
-  color: var(--highlight-dark-grey);
+  color: var(--highlight-light-grey);
   font-size: 18px;
   text-decoration: none;
 }
 
 footer ul li a:hover{
-  color: var(--secondary-pink);
+  color: var(--primary-yellow);
 }
 
 @media screen and (min-width: 768px) {

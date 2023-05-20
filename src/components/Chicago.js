@@ -13,7 +13,7 @@ export default function Chicago() {
         </p>
       </div>
       <div className="about-images">
-        <img src={marioandadriana} alt="Mario and Adrian" />
+        <img src={marioandadriana} alt="Mario and Adrian in the kitchen" />
         <img src={marioandadrianb} alt="Mario and Adrian" />
       </div>
     </article>

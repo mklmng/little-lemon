@@ -67,9 +67,18 @@
   z-index: 1;
 }
 
+#mobile-menu.animated ul {
+  background-color: var(--highlight-dark-grey);
+
+}
+
 #mobile-menu ul li{
   display: block;
   padding: 0.5rem;
+}
+
+#mobile-menu.animated ul li a{
+  color: var(--highlight-light-grey);
 }
 
 .hamburger-menu {

@@ -7,7 +7,7 @@ export default function Gallery() {
   return (
     <header>
       <div className="header-logo">
-        <Link to="/">
+        <Link to="/" aria-label="Link to Homepage">
           <img src={logo} alt="Little Lemon logo" />
         </Link>
       </div>

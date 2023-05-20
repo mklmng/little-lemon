@@ -171,7 +171,7 @@ export default function BookingForm({ availableTimes, dispatch, submitForm }) {
       </select>
       {occassionError ? <span aria-labelledby="occasion-error" className="error">{occasionMessage}</span> : null}
 
-      <input type="submit" value="Book Now" className="cta" disabled={isDisabled} />
+      <button className="cta" disabled={isDisabled} aria-label="On Click">Book Now</button>
     </form>
   );
 }

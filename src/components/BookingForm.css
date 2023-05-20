@@ -53,3 +53,7 @@ form input:disabled{
 .error{
   color: var(--highlight-light-grey);
 }
+
+button.cta {
+  margin: 2rem auto 0;
+}

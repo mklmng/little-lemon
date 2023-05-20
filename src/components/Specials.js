@@ -1,4 +1,6 @@
 import './Specials.css';
+import { Link } from 'react-router-dom';
+
 import greeksalad from '../assets/greek_salad.jpg';
 import bruschetta from '../assets/bruschetta.jpg';
 import lemondessert from '../assets/lemon_dessert.jpg'
@@ -9,9 +11,7 @@ export default function Specials() {
       <div className="specials-header">
         <div className="specials">
           <h4>This weeks specials!</h4>
-          <a href="/menu" className="cta">
-            Online Menu
-          </a>
+          <Link to="/menu" className='cta' aria-label="Link to Menu">Online Menu</Link>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ export default function Specials() {
                 The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished
                 with crunchy garlic and rosemary croutons.
               </p>
-              <a href="/order-online" className="cta-secondary">Order a delivery</a>
+              <Link to="/menu" className='cta-secondary' aria-label="Link to Menu">Order a delivery</Link>
             </div>
           </div>
 
@@ -38,7 +38,7 @@ export default function Specials() {
               <p>
                 Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
               </p>
-              <a href="/order-online" className="cta-secondary">Order a delivery</a>
+              <Link to="/menu" className='cta-secondary' aria-label="Link to Menu">Order a delivery</Link>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ export default function Specials() {
               <p>
                 This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
               </p>
-              <a href="/order-online" className="cta-secondary">Order a delivery</a>
+              <Link to="/menu" className='cta-secondary' aria-label="Link to Menu">Order a delivery</Link>
             </div>
           </div>
         </div>
