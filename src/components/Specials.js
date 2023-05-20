@@ -8,7 +8,7 @@ export default function Specials() {
     <article className="bg-specials">
       <div className="specials-header">
         <div className="specials">
-          <h3>This weeks specials!</h3>
+          <h4>This weeks specials!</h4>
           <a href="/menu" className="cta">
             Online Menu
           </a>

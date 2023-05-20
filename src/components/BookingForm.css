@@ -1,15 +1,7 @@
-.booking-form {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  grid-column: 1 / -1;
-  grid-row: 1 / span 3;
-  border-radius: 16px;
-  font-family: var(--secondary-font);
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 1.5rem;
-
+form{
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .booking-form label {
@@ -22,8 +14,22 @@
   display: block;
 }
 
+.booking-form label {
+  text-align-last: left;
+  color: var(--primary-yellow);
+}
+
+.booking-form label, .booking-form input{
+  display: block;
+}
+
+.booking-form label{
+  padding-bottom: 0.5rem;
+}
+
 label {
   padding-bottom: 0;
+  margin-top: 1rem;
   margin-bottom: 0;
   text-align: center;
 }
@@ -32,6 +38,18 @@ input, select {
   display: block;
   padding: 0.5rem;
   text-align: center;
-  margin: 0 auto 1rem;
+  margin: 0 auto;
   width: 250px;
+}
+
+form input[type=submit]{
+  margin-top: 2rem;
+}
+
+form input:disabled{
+  background-color: var(--highlight-light-grey);
+}
+
+.error{
+  color: var(--highlight-light-grey);
 }
